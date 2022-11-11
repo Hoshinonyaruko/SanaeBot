@@ -3,8 +3,9 @@
 缺少模块找不到的话可以问我要
 
 全部功能文档&图解
+功能真的挺多的，是从2011年开始写的各种鸡肋功能
 https://www.yuque.com/km57bt/hlhnxg
-太多了，所以放在可以折叠的语雀了
+太多了，所以放在可以折叠的语雀了，有耐心可以看看，有的挺好玩
 
 https://kook.top/VAKBfJ
 里面也有获取onebot后端地址的程序
@@ -24,7 +25,7 @@ https://github.com/mnixry/nonebot-plugin-gocqhttp
 打开http://127.0.0.1:8080/go-cqhttp/#/
 添加你的bot，并登录
 点击修改设置-进程配置，打开config.yml，定位到尾部
-# 将设置改为这个样子，请注意下方200xx，xx修改为1-50任意数字~以证明你不是机器人0w0
+# 将设置改为这个样子，请注意下方200xx，xx修改为1-50任意数字
 
 ```
 servers:
