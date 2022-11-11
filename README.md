@@ -16,10 +16,16 @@ https://kook.top/VAKBfJ
 后端太大了，所以放在云服务器上，想要本地部署也可以联系我
 
 早苗可以缝合nonebot啦，缝合方法
+简单说一下缝合的原理，
+早苗是通过这个文档开源的e文件，载入了传统复古的Mypcqq插件（2015年代产物）
+然后将其内部api转化为OnebotV11协议，通过ws和修改过config.yml配置的、
+载入在nonebot2下的nonebot-plugin-gocqhttp进行通讯，通过gocqhttp的异步多线程特性，
+实现早苗功能和nonebot2的无缝（不搭嘎）缝合。
 
-首先按照nonebot教程部署nonebot2
+按照nonebot教程部署nonebot2
 https://v2.nonebot.dev/docs/start/installation
-然后按照下面的文档安装nonebot2-gocq插件
+
+按照下面的文档安装nonebot2-gocq插件
 https://github.com/mnixry/nonebot-plugin-gocqhttp
 
 打开http://127.0.0.1:8080/go-cqhttp/#/
