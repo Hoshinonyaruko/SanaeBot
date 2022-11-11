@@ -26,18 +26,31 @@ https://github.com/mnixry/nonebot-plugin-gocqhttp
 点击修改设置-进程配置，打开config.yml，定位到尾部
 将设置改为这个样子，请注意下方200xx，xx修改为1-50任意数字~以证明你不是机器人0w0
 servers:
+
   - ws-reverse:
+  
       universal: "{{{server_address}}}"
+      
       reconnect-interval: 3000
+      
       middlewares:
+      
         <<: *default
+        
         access-token: "{{{access_token}}}"
+        
         servers:
+        
   - ws-reverse:
+  
       universal: "ws://sanae.youngmoe.com:200xx"
+      
       reconnect-interval: 3000
+      
       middlewares:
+      
         <<: *default
+        
         access-token: "{{{access_token}}}"
 
 
