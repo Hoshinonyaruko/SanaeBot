@@ -24,36 +24,24 @@ https://github.com/mnixry/nonebot-plugin-gocqhttp
 打开http://127.0.0.1:8080/go-cqhttp/#/
 添加你的bot，并登录
 点击修改设置-进程配置，打开config.yml，定位到尾部
-将设置改为这个样子，请注意下方200xx，xx修改为1-50任意数字~以证明你不是机器人0w0
+# 将设置改为这个样子，请注意下方200xx，xx修改为1-50任意数字~以证明你不是机器人0w0
+
+```
 servers:
-
   - ws-reverse:
-  
       universal: "{{{server_address}}}"
-      
       reconnect-interval: 3000
-      
       middlewares:
-      
         <<: *default
-        
         access-token: "{{{access_token}}}"
-        
         servers:
-        
   - ws-reverse:
-  
       universal: "ws://sanae.youngmoe.com:200xx"
-      
       reconnect-interval: 3000
-      
       middlewares:
-      
         <<: *default
-        
         access-token: "{{{access_token}}}"
-
-
+```
 保存配置后，重启bot，看到启动时提示成功连接ws://sanae.youngmoe.com，代表你已经缝合成功了早苗
 缝合成功后可以随意安装nonebot2插件结合早苗使用。
 如何使用内置的澪和浅羽词库？请到kook频道获取后端ip获取器，然后替换到反向ws接口处使用，结合获取器（gocq实用工具）可以自动更换后端ip
