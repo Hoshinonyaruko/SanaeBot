@@ -1,5 +1,7 @@
 # SanaeBot
 易语言写的，从2011年开始写的屎山代码
+方便零基础小白使用的nonebot2+早苗教程↓
+https://www.bilibili.com/read/cv19705498
 缺少模块找不到的话可以问我要
 
 全部功能文档&图解
