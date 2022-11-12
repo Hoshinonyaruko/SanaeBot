@@ -1,15 +1,20 @@
 # SanaeBot
 易语言写的，从2011年开始写的屎山代码
+
 方便零基础小白使用的nonebot2+早苗教程↓
 https://www.bilibili.com/read/cv19705498
+
 缺少模块找不到的话可以问我要
 
 全部功能文档&图解
 功能真的挺多的，是从2011年开始写的各种鸡肋功能
+
 https://www.yuque.com/km57bt/hlhnxg
+
 太多了，所以放在可以折叠的语雀了，有耐心可以看看，有的挺好玩
 
 https://kook.top/VAKBfJ
+
 里面也有获取onebot后端地址的程序
 
 找不到后端地址可以联系我要
