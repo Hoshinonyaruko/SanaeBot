@@ -1,4 +1,9 @@
 # SanaeBot
+
+专栏教程
+
+https://www.bilibili.com/read/cv19705498
+
 易语言写的，从2011年开始写的屎山代码
 
 主要功能
