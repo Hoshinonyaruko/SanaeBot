@@ -4,7 +4,7 @@
 
 https://www.bilibili.com/read/cv19705498
 
-易语言写的，从2011年开始写的屎山代码
+易语言写的，主要是2011~2016年epl时期的机器人代码
 
 主要功能
 
@@ -42,11 +42,11 @@ https://www.bilibili.com/read/cv19705498
 
 全部功能文档&图解
 
-功能真的挺多的，是从2011年开始写的各种鸡肋功能
+很多是不想失传，等着被人模仿到其他语言、框架的epl插件
 
 https://www.yuque.com/km57bt/hlhnxg
 
-太多了，所以放在可以折叠的语雀了，有耐心可以看看，有的挺好玩
+功能都在语雀了，有耐心可以看看，有的挺好玩
 
 https://kook.top/VAKBfJ
 
@@ -55,19 +55,11 @@ https://kook.top/VAKBfJ
 找不到后端地址可以联系我要
 或者给我发邮件，applegm@me.com
 
-后端太大了，所以放在云服务器上，想要本地部署也可以联系我
+早苗的主要内容其实是数据库，放在云服务器上才能互通，想要本地部署可以自行用源码构建
 
-早苗可以缝合nonebot啦，缝合方法
+早苗可以缝合nonebot、koishi，有对应的插件
 
-简单说一下缝合的原理，
-
-早苗是通过这个文档开源的e文件，载入了传统复古的Mypcqq插件（2015年代产物）
-
-然后将其内部api转化为OnebotV11协议，通过ws和修改过config.yml配置的、
-
-载入在nonebot2下的nonebot-plugin-gocqhttp进行通讯，通过gocqhttp的异步多线程特性，
-
-实现早苗功能和nonebot2的无缝（不搭嘎）缝合。
+nonebot-plugin-sanae和koishi-plugin-sanae
 
 按照nonebot教程部署nonebot2
 
